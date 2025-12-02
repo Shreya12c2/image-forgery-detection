@@ -1,0 +1,53 @@
+Notebook
+-------------
+
+Classification
+---------------
+
+1. Importing the Packages
+2. Exploring the Datasets
+	- CASIA Datasets 
+3. Image Data Augmentation
+	- Re-scaling the Image
+	- Shear Transformation
+	- Zooming the Image
+	- Horizontal Flip 
+	- Reshaping the Image 
+4. Function for calculating the Recall, Precision and F1 Score
+5. Defining the EarlyStopping to avoid either Under/Over Fitting
+6. Calling the Model
+
+	- CNN
+	- VGG16
+	- VGG19
+	- Densenet
+	- MobileNetV2
+	- ResNet50
+	- InceptionV3
+	- ResNet101
+	- ResNet152
+	- Xception
+	- NasNetMobile
+	- Xception + NasNetMobile - Ensemble Model
+
+7. Building and Training the model  
+8. Dumping the best model for classifying the abnormalities further
+
+FrontEnd
+--------
+
+20. Frontend is developed with help of Flask Framework, along with Registration and Login setup with support of Sqlite DB
+21. For the frontend we used the data for classifying
+22. User uploads an image
+	- Classification
+23. The given input is preprocessed for classifying
+24. Trained model is used for classifying
+25. Final classification and will show tampered part for fake images outcome is displayed through frontend
+
+
+Extension
+----------
+
+In the base paper, the author mentioned to use Xception + NasNet  and compared with different Transfer Learning model for Image forgery classification,
+As an extension we have applied NasNetMobile and Ensemble of  Xception with NasNetMobile for analysis the dataset,
+With the above As an extension we can build the front end using flask framework for user testing with authentication.
